@@ -71,7 +71,7 @@ export default{
 <template>
     <nav>
         <div>
-            <AppLogo></AppLogo>
+            <AppLogo/>
         </div>
         <div>
             <ul>
