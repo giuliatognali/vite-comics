@@ -21,6 +21,7 @@ export default {
 
 <style lang="scss" scoped>
 
+@use "../style/variables.scss" as *;
 div{
     background-color: $secondary-color;
 }
