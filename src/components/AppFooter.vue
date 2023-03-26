@@ -3,7 +3,7 @@ import BottomFooter from './BottomFooter.vue';
 import MainFooter from './MainFooter.vue';
 import TopFooter from './TopFooter.vue';
 
-export default{
+export default {
     name: 'AppFooter',
     data() {
         return {}
@@ -17,12 +17,11 @@ export default{
 </script>
 
 <template>
-   <footer>
-    <TopFooter/>
-    <MainFooter/>
-    <BottomFooter />
-    
-</footer>
+    <footer>
+        <TopFooter/>
+        <MainFooter/>
+        <BottomFooter/>
+    </footer>
 </template>
 
 <style lang="scss" scoped></style>

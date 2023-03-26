@@ -16,7 +16,7 @@ export default {
 </script>
 
 <template>
-    <div>
+    <div class="bottom-footer">
         <div class="container">
             <BtnFooter/>
             <SocialContacts/>
