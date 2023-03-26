@@ -18,6 +18,7 @@ export default{
    <footer>
     <MainFooter/>
     <BottomFooter />
+    
 </footer>
 </template>
 

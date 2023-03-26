@@ -81,7 +81,6 @@ export default {
     ul {
         display: flex;
         justify-content: center;
-        list-style: none;
         align-items: center;
         height: 100px;
 
@@ -95,7 +94,6 @@ export default {
                 font-weight: 600;
                 font-stretch: condensed;
                 color: $secondary-color;
-                text-decoration: none;
             }
 
             &:hover {
