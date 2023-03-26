@@ -1,8 +1,13 @@
 <script>
+import BtnFooter from './BtnFooter.vue';
+
 export default {
     name: 'BottomFooter',
     data() {
         return { }
+    },
+    components: {
+        BtnFooter
     }
 }
 </script>
@@ -10,7 +15,7 @@ export default {
 <template>
     <div>
         <div>
-            bottone
+            <BtnFooter/>
         </div>
         <div>
             icone

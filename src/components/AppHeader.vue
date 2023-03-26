@@ -17,7 +17,7 @@ export default {
 <!-- html -->
 <template>
     <header>
-        <div class="header-content">
+        <div class="container">
             <div>
                 <AppLogo />
             </div>
@@ -34,10 +34,7 @@ export default {
 
 
 <style lang="scss" scoped>
-.header-content {
-
-    max-width: 80rem;
-    margin: 0 auto;
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
