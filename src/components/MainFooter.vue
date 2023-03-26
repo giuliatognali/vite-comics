@@ -1,8 +1,15 @@
 <script>
+import MenuFooter from './MenuFooter.vue';
+import LogoFooter from './LogoFooter.vue';
+
 export default {
     name: 'MainFooter',
     data() {
         return { }
+    },
+    components:{
+        MenuFooter,
+        LogoFooter
     }
 }
 </script>
@@ -10,7 +17,10 @@ export default {
 <template>
 <div class="main-footer">
     <div class="container">
-        cose cose
+        <MenuFooter/>
+        <div class="logo">
+        <LogoFooter/>
+    </div>
     </div>
     
 
@@ -21,7 +31,22 @@ export default {
 .main-footer {
     min-height: 370px;
     background-image: url(../assets/img/footer-bg.jpg);
+    overflow: hidden;
 
+    .container{
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+       
+
+        .logo{
+            position: absolute;
+           right: 100px;
+           top: -100px
+
+        }
+    }
 }
+
 
 </style>

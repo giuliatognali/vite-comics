@@ -8,13 +8,15 @@ export default {
 </script>
 
 <template>
-    <div>
+    <main>
+    <div class="container">
         <h3>Content goes here</h3>
     </div>
+</main>
 </template>
 
 <style lang="scss" scoped>
-div{
+main{
     background-color:#333 ;
     
     height: 75px;
