@@ -21,6 +21,7 @@ export default {
 .main-footer {
     min-height: 370px;
     background-image: url(../assets/img/footer-bg.jpg);
+
 }
 
 </style>
