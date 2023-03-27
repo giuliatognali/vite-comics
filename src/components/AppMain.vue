@@ -1,28 +1,20 @@
 <script>
+import ComicList from './ComicList.vue';
+
 export default {
     name: 'AppMain',
-    data() {
-        return { }
+    components: {
+        ComicList
+
     }
 }
 </script>
 
 <template>
     <main>
-    <div class="container">
-        <h3>Content goes here</h3>
-    </div>
-</main>
+        <ComicList />
+    </main>
 </template>
 
 <style lang="scss" scoped>
-main{
-    background-color:#333 ;
-    
-    height: 75px;
-    h3{
-        color: white;
-    }
-}
-
 </style>
