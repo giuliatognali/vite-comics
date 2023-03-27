@@ -50,7 +50,6 @@ export default {
             </li>
 
         </ul>
-        <img src="" alt="">
     </div>
 </template>
 
